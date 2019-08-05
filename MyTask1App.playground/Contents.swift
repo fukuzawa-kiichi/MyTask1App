@@ -81,8 +81,12 @@ insA.put()
 
 // 課題1-9
 class hogeB {
-    func putName(name: String) -> String {
-        let takashi: String = ""
-        let 
+    func putName(name: String)  {
+        print("私の名前は\(name)です。")
     }
 }
+let takashi: hogeB = hogeB()
+let ken: hogeB = hogeB()
+
+takashi.putName(name: "たかし")
+ken.putName(name: "ケン")
