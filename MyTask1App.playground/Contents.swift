@@ -56,3 +56,16 @@ func calculationB(valueA: Int, valueB: Int){
 }
 calculationB(valueA: 100, valueB: 30)
 
+
+// 課題1-7
+func calculationC(valueA: Int, valueB: Int) -> Int {
+    let valueD = valueA + valueB
+    return valueD
+}
+let valueD = calculationC(valueA: 40, valueB: 25)
+if valueD % 2 == 0 {
+    print("計算結果\(valueD)は偶数です。")
+}else{
+    print("計算結果\(valueD)は奇数です。")
+}
+
