@@ -119,3 +119,8 @@ default:
 
 }
 
+// 課題1-12
+var num: Int = 0
+for num in 1...50{
+    print(num)
+}
