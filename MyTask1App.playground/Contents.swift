@@ -162,4 +162,11 @@ else {
 }
 
 // 課題1-19
+if let num2 = valueH["k"] {
+    print(num2)
+}
+else {
+    print("値はnilです。")
+}
+
 
