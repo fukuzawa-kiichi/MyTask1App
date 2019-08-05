@@ -90,3 +90,13 @@ let ken: hogeB = hogeB()
 
 takashi.putName(name: "たかし")
 ken.putName(name: "ケン")
+
+// 課題1-10
+class hogeC {
+    
+    init(name: String){
+     print("私の名前は\(name)です。")
+    }
+}
+let yamada: hogeC = hogeC(name: "やまだ")
+let miyata: hogeC = hogeC(name: "みやた")
