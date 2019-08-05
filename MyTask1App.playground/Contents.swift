@@ -124,3 +124,10 @@ var num: Int = 0
 for num in 1...50{
     print(num)
 }
+
+// 課題1-13
+var valueE: [Int] = []
+for valuei in 1...50{
+    valueE.append(valuei)
+}
+print(valueE)
