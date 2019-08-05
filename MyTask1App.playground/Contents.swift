@@ -29,3 +29,16 @@ if 0 <= valueC && valueC < 10  {
     print("\(valueC)は4桁以上の値です。")
 }
 
+
+// 課題1-4
+switch valueC {
+case 0..<10:
+    print("\(valueC)は1桁の値です。")
+case 10..<100:
+    print("\(valueC)は2桁の値です。")
+case 100..<1000:
+    print("\(valueC)は3桁の値です。")
+default:
+    print("\(valueC)は4桁以上の値です。")
+}
+
