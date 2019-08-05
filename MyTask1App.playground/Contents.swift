@@ -146,3 +146,6 @@ print(valueG)
 valueG.sort{ $1 < $0 }
 print(valueG)
 
+// 課題1-16
+print(valueG.count)
+
