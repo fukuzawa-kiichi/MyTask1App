@@ -78,3 +78,11 @@ class hogeA {
 
 var insA = hogeA()
 insA.put()
+
+// 課題1-9
+class hogeB {
+    func putName(name: String) -> String {
+        let takashi: String = ""
+        let 
+    }
+}
