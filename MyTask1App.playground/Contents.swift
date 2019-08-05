@@ -131,3 +131,8 @@ for valuei in 1...50{
     valueE.append(valuei)
 }
 print(valueE)
+
+// 課題1-14
+var valueF: [String] = ["リュウ", "ケン", "ナッシュ", "ガイル", "ベガ", "フェイロン"]
+valueF.remove(at: 2)
+print(valueF)
