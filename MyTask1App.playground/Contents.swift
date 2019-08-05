@@ -153,3 +153,5 @@ print(valueG.count)
 let valueH: [String: Int] = ["a": 1 ,"b": 2,"c": 3]
 print(valueH["b"])
 
+// 課題1-18
+print(valueH["b"]!)
