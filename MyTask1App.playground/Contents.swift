@@ -49,3 +49,10 @@ func calculationA(value: Int){
 }
 calculationA(value: 10)
 
+
+// 課題1-6
+func calculationB(valueA: Int, valueB: Int){
+    print(valueA % valueB)
+}
+calculationB(valueA: 100, valueB: 30)
+
