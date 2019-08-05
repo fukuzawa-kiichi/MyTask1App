@@ -42,3 +42,10 @@ default:
     print("\(valueC)は4桁以上の値です。")
 }
 
+
+// 課題1-5
+func calculationA(value: Int){
+    print(10 * value)
+}
+calculationA(value: 10)
+
