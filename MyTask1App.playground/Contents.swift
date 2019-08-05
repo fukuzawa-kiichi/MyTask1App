@@ -154,4 +154,12 @@ let valueH: [String: Int] = ["a": 1 ,"b": 2,"c": 3]
 print(valueH["b"])
 
 // 課題1-18
-print(valueH["b"]!)
+if let num2 = valueH["b"] {
+    print(num2)
+}
+else {
+    print("値はnilです。")
+}
+
+// 課題1-19
+
