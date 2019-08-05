@@ -136,3 +136,13 @@ print(valueE)
 var valueF: [String] = ["リュウ", "ケン", "ナッシュ", "ガイル", "ベガ", "フェイロン"]
 valueF.remove(at: 2)
 print(valueF)
+
+// 課題1-15
+var valueG: [Int] = [5, 4, 100, 49, 30, 1, 12, 0]
+// 昇順
+valueG.sort{ $0 < $1 }
+print(valueG)
+// 降順
+valueG.sort{ $1 < $0 }
+print(valueG)
+
