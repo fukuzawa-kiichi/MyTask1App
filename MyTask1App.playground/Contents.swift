@@ -149,3 +149,7 @@ print(valueG)
 // 課題1-16
 print(valueG.count)
 
+// 課題1-17
+let valueH: [String: Int] = ["a": 1 ,"b": 2,"c": 3]
+print(valueH["b"])
+
