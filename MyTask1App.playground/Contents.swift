@@ -69,3 +69,12 @@ if valueD % 2 == 0 {
     print("計算結果\(valueD)は奇数です。")
 }
 
+// 課題1-8
+class hogeA {
+    func put() {
+        print("クラスAインスタンスです。")
+    }
+}
+
+var insA = hogeA()
+insA.put()
