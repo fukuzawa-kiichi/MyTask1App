@@ -100,3 +100,22 @@ class hogeC {
 }
 let yamada: hogeC = hogeC(name: "やまだ")
 let miyata: hogeC = hogeC(name: "みやた")
+
+// 課題1-11
+enum User: String {
+    case name = "名前"
+    case age = "年齢"
+    case bloodType = "血液型"
+}
+
+let user = User.name
+switch user {
+case.name:
+    print(User.name.rawValue)
+case.age:
+    print(User.age.rawValue)
+default:
+    print(User.bloodType.rawValue)
+
+}
+
