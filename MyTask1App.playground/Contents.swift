@@ -5,3 +5,13 @@ let itemA: Int = 1000
 let itemB: String = "こんにちわ"
 let itemC: Double = 42.195
 let itemD: Bool = true
+
+// 課題1-2
+let valueA: Int = 100
+let valueB: Int = 20
+
+print(valueA + valueB)
+print(valueA - valueB)
+print(valueA * valueB)
+print(valueA / valueB)
+
