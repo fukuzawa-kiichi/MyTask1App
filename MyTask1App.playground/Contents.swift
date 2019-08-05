@@ -169,4 +169,23 @@ else {
     print("値はnilです。")
 }
 
+// 課題1-20
+// 関数の宣言
+let valueI: [Any?] = [1, "こんにちわ" , "こんばんわ", nil, 3, 100, "よろしく", nil, "お願いします。"]
+// 要素数の把握
+let num4: Int = valueI.count
+// (要素数)回繰り返す
+for  counts in 0...num4 - 1 {
+    // もしあたいがInt型なら
+    if let num2 = valueI[counts] as? Int {
+        print("数値は\(num2)です。")
+    }
+//    
+    else if let num2 = valueI[counts] as? String {
+        print(num2)
+    }
+    else{
+        print("値はnilです。")
+    }
+}
 
