@@ -21,9 +21,9 @@ var valueC: Int = 1999
 
 if 0 <= valueC && valueC < 10  {
     print("\(valueC)は1桁の値です。")
-}else if  10 <= valueC && valueC < 99 {
+}else if  10 <= valueC && valueC < 100 {
     print("\(valueC)は2桁の値です。")
-}else if  100 <= valueC && valueC < 999 {
+}else if  100 <= valueC && valueC < 1000 {
     print("\(valueC)は3桁の値です。")
 }else {
     print("\(valueC)は4桁以上の値です。")
@@ -59,8 +59,7 @@ calculationB(valueA: 100, valueB: 30)
 
 // 課題1-7
 func calculationC(valueA: Int, valueB: Int) -> Int {
-    let valueD = valueA + valueB
-    return valueD
+    return valueA + valueB
 }
 let valueD = calculationC(valueA: 40, valueB: 25)
 if valueD % 2 == 0 {
@@ -156,8 +155,7 @@ print(valueH["b"])
 // 課題1-18
 if let num2 = valueH["b"] {
     print(num2)
-}
-else {
+}else {
     print("値はnilです。")
 }
 
@@ -172,10 +170,9 @@ else {
 // 課題1-20
 // 関数の宣言
 let valueI: [Any?] = [1, "こんにちわ" , "こんばんわ", nil, 3, 100, "よろしく", nil, "お願いします。"]
-// 要素数の把握
-let num4: Int = valueI.count
+
 // (要素数)回繰り返す
-for  counts in 0...num4 - 1 {
+for  counts in 0...valueI.count - 1 {
     // もしあたいがInt型なら
     if let num2 = valueI[counts] as? Int {
         print("数値は\(num2)です。")
